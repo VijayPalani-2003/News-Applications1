@@ -1,0 +1,9 @@
+<ul class="nav justify-content-center bg-dark">
+  <li *ngFor="let subsection of subsections" class="nav-item">
+    <a 
+      class="nav-link text-white small" 
+      (click)="dispatchAction(subsection)">
+      {{subsection}}
+    </a>
+  </li>
+</ul>
